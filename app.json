@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "vlv-2.0",
+    "slug": "vlvs",
+    "version": "1.2.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.glotovs.vlvs"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.glotovs.vlvs"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5ab2d419-43cb-44ec-b1b7-d063aad3914a"
+      }
+    },
+    "owner": "glotovs"
+  }
+}
